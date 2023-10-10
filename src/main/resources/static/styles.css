@@ -1,0 +1,31 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #0099cc;
+}
+
+form {
+    margin-top: 20px;
+}
+
+select, button {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #0099cc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0099cc;
+    color: white;
+    cursor: pointer;
+}
+
+select:focus, button:focus {
+    outline: none;
+}
+
